@@ -1,0 +1,74 @@
+Git Download : https://git-scm.com
+Install
+Install option : Git from the command line and also from 3rd-party software check.!!
+Next Default…
+
+Git 터미널 설치
+Diwndows : cmder
+https://cmder.net/
+
+Cmder 실행
+Git Version 확인
+  $git --version
+  
+GUI 어플 Sourcetree 설치
+https://www.sourcetreeapp.com/ 
+
+	- 아틀라시안에 가입
+	- Bitbucket 등의 성정을 하라고 하는데 skip
+
+
+Git 사용준비
+Cmder 에서
+Git 환경설정(.gitconfig file)
+Git 환경 확인 
+$git config --list
+$git config --global -e
+
+터미널에서 Visual Studio Code 연결
+Code .
+Code 를 에디터와( Visual Studio Code) 연동 
+$git config --global core.editor "code --wait"
+
+사용자 정보입력
+$git config --global user.name "Myeongcheol Jeoung"
+$git config --global user.email "jeongmc72@gmail.com"
+
+에디터에서 줄바꿈을 할 때 들어가는 문자열이 달라짐을 방지
+Windows 사용자 (text \r\n)
+$git config --global core.autocrlf true
+맥사용자 (\n)
+$git config --global core.autocrlf input
+
+
+Git 명령어 참조 
+https://git-scm.com/docs
+
+Git 기본 명령어
+설명 	명령어
+저장소의 생성		Git init
+저장소에 파일 추가		Git add <filename>
+저장소에 변경 내용의 반영		Git commit
+저장소의 상태 확인		Git status
+
+
+Git 초기화
+$git init
+
+Git 제거
+$rm -rf .git
+
+명령어 사용법 확인
+$git config --h
+
+Alias 설정
+$git config --global alias.st status
+$git config st
+
+
+
+$mkdir ~/test_git
+$cd ~/test_get
+$git init
+$ls -acF
+.git/  ./   ../
