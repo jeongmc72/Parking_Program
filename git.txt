@@ -14,8 +14,8 @@ Git Version 확인
 GUI 어플 Sourcetree 설치
 https://www.sourcetreeapp.com/ 
 
-- 아틀라시안에 가입
-- Bitbucket 등의 성정을 하라고 하는데 skip
+	- 아틀라시안에 가입
+	- Bitbucket 등의 성정을 하라고 하는데 skip
 
 
 Git 사용준비
